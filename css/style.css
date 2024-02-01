@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Raleway', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*	wrapper		*/
+
+.wrapper {
+    max-width: 1170px;
+	margin: auto;
+}
+
+/*	section tabs		*/
+
+.tabs_multi {
+	display: flex;
+}
+.buttons {
+
+	width: 203px;
+	height: 40px;
+	background-color: white;
+	border: none;
+}
+
+.buttons:hover {
+	border: 1px solid #C6CBCD;
+	
+}
+.tabs_panel {
+	display: flex;
+	border: 1px solid #C6CBCD ;
+	margin-bottom: 118px;
+}
+
+
+.tabs_text {
+	padding-top: 55px;
+	padding-left: 101px;
+	
+}
+.zagolovok_tabs {
+	font-size: 30px;
+	padding-bottom: 57px;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.paragraph_tabs {
+	padding-top: 26px;
+	font-size: 18px;
+}
+
+.download {
+	display: flex;
+	font-size: 18px;
+	width: 270px;
+	height: 58px;
+	background-color: #EC7979;
+	color: #FFFFFF;
+	margin-top: 84px;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.download:hover {
+	border: 1px solid #C6CBCD ;
+}
+.tabs_img {
+	max-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	section	cards	*/
+
+.zagolovok {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+}
+.line {
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979 ;
+	margin-bottom: 40px;
+}
+.paragraph {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 92px;
+	color: #000000;
+}
+
+.cards_panel{
+	display: flex;
+	justify-content: space-between;
+}
+.card {
+	
+	width: 30%;
+}
+.img{
+	display: block;
+	margin: auto;
+	margin-bottom: 24px;
+}
+.design {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 26px;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.lorem {
+	text-align: center;
+	font-size: 18px;
+}
