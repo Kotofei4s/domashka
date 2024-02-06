@@ -46,7 +46,8 @@ table {
 /*	wrapper		*/
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1200px;
+	padding: 0, 15px;
 	margin: auto;
 }
 
@@ -56,21 +57,30 @@ table {
 	display: flex;
 }
 .buttons {
-
-	width: 203px;
+	
+	width: 243px;
 	height: 40px;
 	background-color: white;
 	border: none;
 }
-
+.board {
+	border: 1px solid #C6CBCD;
+	border-bottom: none;
+}
 .buttons:hover {
 	border: 1px solid #C6CBCD;
-	
 }
 .tabs_panel {
 	display: flex;
 	border: 1px solid #C6CBCD ;
 	margin-bottom: 118px;
+	border-top: none;
+}
+.border {
+	border: 1px solid #C6CBCD ;
+	border-top: none;
+	border-left: none;
+	border-right: none;
 }
 
 
@@ -111,28 +121,10 @@ table {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*	section	cards	*/
-
+.cards {
+	margin-bottom: 110px;
+}
 .zagolovok {
     font-size: 36px;
     text-align: center;
@@ -144,6 +136,7 @@ table {
     height: 1px;
     background-color: #EC7979 ;
 	margin-bottom: 40px;
+	border: none;
 }
 .paragraph {
 	font-size: 18px;
@@ -176,4 +169,81 @@ table {
 .lorem {
 	text-align: center;
 	font-size: 18px;
+}
+
+
+/*	section	prising	*/
+
+.prising {
+	background-color: #F5F5F5;
+}
+.options {
+	padding-top: 82px;
+}
+.prising_class {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.prising_table {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: calc(100% / 3 - 60px / 3);
+	padding-top: 20px;
+}
+.basic_li {
+	display: flex;
+	font-size: 24px;
+	font-weight: 700;
+	color: #FFFFFF;
+	font-family:'Open Sans', sans-serif;
+	border: 2px solid #F5F5F5;
+	background-color: #000000;
+	width: 100%;
+	text-align: center;
+	height: 60px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+	
+.baks {
+	font-size: 36px;
+	background-color: #000000;
+	display: flex;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+.free {
+	display: flex;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: rgba(255,255,255, 0.5);	
+	width: 100%;
+	background-color: #000000;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}
+.gb_li {
+	display: flex;
+	width: 100%;
+	color: #86878B;
+	font-size: 18px;
+	background-color: #FFFFFF;
+	max-width: 100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+
+}
+.modify {
+	padding-bottom: 21px;
 }
