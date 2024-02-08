@@ -247,3 +247,59 @@ table {
 .modify {
 	padding-bottom: 21px;
 }
+
+
+
+/*	section	customers	*/
+.customers {
+	margin-bottom: 150px;
+}
+.customers_cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.customers_card {
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	max-width: calc(100% / 3 - 60px / 3);
+	padding: 38px 25px;
+
+}
+
+.triangle {
+    position: relative;
+}
+.triangle ::after {
+	content: ''; 
+    position: absolute;
+    left: 70px; bottom: -45px;
+    border: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+}
+.customers_text {
+	max-width: 320px;
+	text-align: center;
+}
+.card_managers {
+	display: flex;
+	margin-top: 66px;
+	justify-content: space-between;
+}
+.card_manager {
+	display: flex;
+}
+.photo_manager {
+	max-width: 70px;
+	max-height: 70px;
+}
+.zagolovok_manager {
+	padding: 0px 30px;
+	font-size: 24px;
+	font-weight: 700;
+	font-family:'Open Sans', sans-serif;
+}
+.paragraph_manager {
+	font-size: 18px;
+	padding: 18px 30px;
+}
