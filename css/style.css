@@ -51,9 +51,167 @@ table {
 	margin: auto;
 }
 
+/* section	header		*/
+
+.header_panel {
+	position: relative;
+	background-color: #000000;
+}
+.wrapper.ad {
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo_img {
+	padding-top: 22px;
+	padding-bottom: 20px;
+	
+}
+
+.ul_header {
+	display: flex;
+}
+.a_logo {
+	display: block;
+	width: 113px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.header {
+	position: relative;
+	background-image: url('../img/image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-position: center;
+	height: 1026px;
+}
+
+.header:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.start_panel {
+	display: flex;
+}
+
+.start_text {
+	position: relative;
+	padding-top: 230px;
+}
+
+.start_img {
+	width: 170px;
+	height: 55px;
+}
+
+.modern {
+	position: relative;
+	padding-top: 72.88px;
+	font-size: 48px;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	width: 670px;
+	padding-right: 101px;
+	color: #FFFFFF;
+	padding-bottom: 55px;
+}
+
+.modern::before {
+	position: absolute;
+	content:'';
+	width: 170px;
+	height: 1px;
+	background: #FFFFFF;
+	border: none;
+	bottom: 0px;
+}
+.start_lorem {
+	padding-top: 42px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFFFFF;
+	max-width: 270px;
+}
+.downloader {
+	display: flex;
+	font-size: 18px;
+	font-weight: 600px;
+	font-family:'Open Sans', sans-serif;
+	width: 270px;
+	height: 58px;
+	background: none;
+	color: #FFFFFF;
+	margin-top: 84px;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #FFFFFF;
+}
+
+.start_form {
+	position: relative;
+	display: block;
+	width: 470px;
+	height: 450px;
+	background-color: #FFFFFF;
+	margin-top: 257px;
+}
+
+/* section	media	*/
+
+.media {
+	background-color: #F8EFEF ;
+}
+
+.media_panel {
+	display: flex;
+	
+}
+
+.social {
+	padding-top: 32px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #333333;
+	font-family:'Open Sans', sans-serif;
+}
+
+.media_lorem {
+	padding-top: 18px;
+	width: 470px;
+	font-weight: 400;
+	color: #86878B;
+	padding-bottom: 18px;
+}
+
+.media_img {
+	display: flex;
+}
+
+.media_img {
+	margin-left: 30px;
+	
+}
+
+
+
 /*	section tabs		*/
 
 .tabs_multi {
+	margin-top: 100px;
 	display: flex;
 }
 .buttons {
@@ -105,6 +263,8 @@ table {
 	font-size: 18px;
 	width: 270px;
 	height: 58px;
+	font-weight: 600px;
+	font-family:'Open Sans', sans-serif;
 	background-color: #EC7979;
 	color: #FFFFFF;
 	margin-top: 84px;
@@ -126,6 +286,7 @@ table {
 	margin-bottom: 110px;
 }
 .zagolovok {
+	position: relative;
     font-size: 36px;
     text-align: center;
     margin-bottom: 40px;
@@ -303,3 +464,78 @@ table {
 	font-size: 18px;
 	padding: 18px 30px;
 }
+
+
+/*	section stylish	*/
+.stylish {
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-position: center;
+}
+.text_panel.styl {
+	padding-bottom: 70px;
+}
+.zagolovokk {
+	position: relative;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+	padding-bottom: 40px;
+	padding-top: 70px;
+}
+.zagolovokk:after {
+	position: absolute;
+	content:'';
+	width: 170px;
+	height: 1px;
+	background: #F8EFEF;
+	border: none;
+	bottom: 0px;
+	left: calc(50% - 85px);
+}
+.paragraph.cvet {
+	color: #FFFFFF;
+}
+.downloader.dd {
+	position: relative;
+	display: flex;
+	font-size: 18px;
+	font-weight: 600px;
+	font-family:'Open Sans', sans-serif;
+	width: 270px;
+	height: 58px;
+	background: none;
+	color: #FFFFFF;
+	margin-top: 80px;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #FFFFFF;
+	left: calc(50% - 137px);
+}
+
+
+
+
+.footer {
+	background-color: #000000;
+}
+.footer_box {
+	display: flex;
+	padding-top: 35px;
+	padding-left: 301px;
+	padding-bottom: 27.8px;
+}
+.footer_img {
+	width: 53.2px;
+	height: 53.2px;
+	padding-right: 32.8px;
+}
+
+.footer_text {
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	padding-bottom: 27px;
