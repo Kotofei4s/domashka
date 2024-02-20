@@ -168,6 +168,49 @@ table {
 	height: 450px;
 	background-color: #FFFFFF;
 	margin-top: 257px;
+	border-radius: 10px;
+}
+.name_form {
+	color: rgba(51, 51, 51, 1)	;
+	font-weight: 700;
+	font-family:'Open Sans', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding: 36px 50px 75px 53px;
+
+}
+.free_form {
+	color: rgba(236, 121, 121, 1);
+}
+.form-group {
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 32px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid rgba(189, 189, 189, 1);
+	padding-top: 16px;
+}
+label {
+	color: rgba(189, 189, 189, 1);
+}
+.button_form {
+	margin-top: 13px;
+	width: 470px;
+	height: 60px;
+	border: none;
+	background-color:rgba(236, 121, 121, 1);
+	border: none;
+}
+.bt_form {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+	font-size: 15px;
+	font-weight: 500;
+	font-family:'Open Sans', sans-serif;
 }
 
 /* section	media	*/
@@ -469,12 +512,23 @@ table {
 
 /*	section stylish	*/
 .stylish {
+	position: relative;
 	background-image: url('../img/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;	
 	background-position: center;
 }
+.stylish::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
 .text_panel.styl {
+	position: relative;
 	padding-bottom: 70px;
 }
 .zagolovokk {
@@ -519,7 +573,76 @@ table {
 }
 
 
+/*	section contact	*/
 
+.zagolovokkk .cont {
+	color: rgba(0, 0, 0, 1);
+}
+.text_panel.style {
+	position: relative;
+	padding-bottom: none;
+}
+
+.zagolovokkk {
+	position: relative;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgba(0, 0, 0, 1);;
+	padding-bottom: 40px;
+	padding-top: 70px;
+}
+.zagolovokkk:after {
+	position: absolute;
+	content:'';
+	width: 170px;
+	height: 1px;
+	background: rgba(236, 121, 121, 1);
+	border: none;
+	bottom: 0px;
+	left: calc(50% - 85px);
+}
+.contact_blok {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.contact_info { 
+	width: calc(100% / 2);
+	gap: 30 px;
+}
+textarea {
+	height: 189px;
+	resize: none;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+.textar { 
+	width: 50%;
+}
+button {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.button_cont {
+	margin-top: 13px;
+	width: 370px;
+	height: 58px;
+	border: none;
+	background-color:rgba(236, 121, 121, 1);
+	border: none;
+}
+.button_contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 66px;
+}
+/*	section footer	*/
 
 .footer {
 	background-color: #000000;
