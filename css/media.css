@@ -103,8 +103,8 @@
         font-size: 14px;
     }
     .photo_manager {
-        max-width: 63px;
-        max-height: 63px;
+        width: 63px;
+        height: 63px;
     }
 
 

@@ -502,8 +502,9 @@ label {
 	margin-top: 66px;
 }
 .photo_manager {
-	max-width: 70px;
-	max-height: 70px;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
 }
 .zagolovok_manager {
 	padding: 0px 30px;
