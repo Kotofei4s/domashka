@@ -94,7 +94,7 @@
         
     }
     .triangle ::after {
-        bottom: 31%;
+        bottom: 35%;
     }
     .zagolovok_manager {
         font-size: 18px;
@@ -235,7 +235,7 @@
     .downloader.dd {
         left: 0px;
     }
-
+    
 }
 @media (max-width: 900px) {
 
@@ -311,7 +311,8 @@
         align-items: center;
     }
     .triangle ::after {
-        bottom: 85px;
+        bottom: 34%;
+
     }
     .customers_card {
         max-width: 287px;
@@ -346,6 +347,13 @@
     }
     .contact_info {
         margin-bottom: 30px;
+    }
+    .contact_info {
+        width: 90%;
+    }
+    .card_manager {
+        width: 287px;
+        height: 86px;
     }
 }
 @media (max-width: 760px) {
@@ -420,4 +428,6 @@
     .prising_table {
         width: 288px;
     }
+
+    
 }
