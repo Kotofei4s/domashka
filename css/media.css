@@ -1,0 +1,423 @@
+@media (max-width: 1280px) {
+    .logo_img {
+        margin-left: 115px;
+    }
+    .ul_header {
+        margin-left: 140px;
+    }
+    .start_text {
+        margin-left: 115px;
+    }
+    .header_panel {
+        display: flex;
+    }
+    .modern {
+        margin-right: 40px;
+        font-size: 36px;
+        padding-right: 0;
+        max-width: 454px;
+    }
+    .modern::before {
+        width: 115px;
+    }
+    .start_form {
+        max-width: 398px;
+	    max-height: 450px;
+    }
+    .name_form {
+        font-size: 18px;
+    }
+    .button_form {
+        max-width: 398px;
+	    max-height: 450px;
+        margin-top: 16px;
+    }
+    .downloader {
+        max-width: 183px;
+        max-height: 50px;
+    }
+
+
+    .social {
+        font-size: 18px;
+        max-width: 402px;
+    }
+    .media_lorem {
+        font-size: 14px;
+        max-width: 402px;
+    }
+    .media_img {
+        max-width: 64px;
+        max-height: 64px;
+        margin-left: 20px;
+    }
+    .zagolovok_tabs {
+        font-size: 24px;
+    }
+    .paragraph_tabs {
+        font-size: 14px;
+        margin-right: 26px;
+    }
+    .download {
+        max-width: 231px;
+    }
+
+    
+
+    .zagolovok {
+        font-size: 24px;
+    }
+    .line {
+        max-width: 143px;
+    }
+    .paragraph {
+        font-size: 14px;
+    }
+    .design {
+        font-size: 18px;
+    }
+    .lorem {
+        font-size: 14px;
+    }
+    
+
+
+
+    .customers_crd {
+        gap: 20px;
+    }
+    .customers_card {
+        padding: 50px 0;
+    }
+    .customers_text {
+        font-size: 14px;
+        
+    }
+    .triangle ::after {
+        bottom: 31%;
+    }
+    .zagolovok_manager {
+        font-size: 18px;
+    }
+    .paragraph_manager {
+        font-size: 14px;
+    }
+    .photo_manager {
+        max-width: 63px;
+        max-height: 63px;
+    }
+
+
+
+    .zagolovokk {
+        font-size: 24px;
+    }
+    .zagolovokk:after {
+        max-width: 142px;
+        left: calc(50% - 71px);
+    }
+    .downloader.dd {
+        max-width: 318px;
+        max-height: 58px;
+    }
+
+
+
+    .zagolovokkk {
+        font-size: 24px;
+    }
+    .button_cont {
+        max-width: 318px;
+    }
+
+
+    .footer_img {
+        max-width: 46px;
+        max-height: 46px;
+    }
+    .footer_text {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 1080px) {
+
+    .start_panel {
+        display: flex;
+        flex-flow: column;
+    }
+    .start_img {
+        display: none;
+    }
+    .start_text {
+        display: flex;
+        flex-flow: column;
+        padding-top: 0;
+        justify-content: center;
+        margin: 0;
+        max-width: 100%;
+    }
+    .modern {
+        display: flex;
+        padding-top: 84px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .modern::before {
+        width: 134px;
+    }
+    .start_lorem {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .downloader {
+        max-width: 288px;
+        margin: 42px auto 56px;
+    }
+    .start_form {
+        margin: 0 auto;
+        max-width: 288px;
+        max-height: 381px;
+        overflow: hidden;
+    }
+    .name_form {
+        font-size: 14px;
+        padding-bottom: 38px;
+    }
+    .button_form {
+        position: relative;
+        max-width: 288px;
+        max-height: 60px;
+        bottom: 25px;
+    }
+
+
+
+
+
+
+
+    .media_text {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .media_panel {
+        flex-flow: column;
+    }
+    .media_imgg {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 44px;
+        padding-top: 14px;
+    }
+    .media_img {
+        max-width: 26px;
+        max-height: 26px;
+    }
+    .social {
+        text-align: center;
+    }
+    .media_lorem {
+        align-items: center;
+        text-align: center; 
+    }
+
+
+    .freedom {
+        display: none;
+    }
+    .downloader.dd {
+        left: 0px;
+    }
+
+}
+@media (max-width: 900px) {
+
+    .ul_header {
+        display: none;
+    }
+    .logo_img {
+        margin: 0;
+    }
+
+
+
+    .tabs_multi {
+        margin-top: 40px;
+    }
+    .tabs_panel {
+        margin-bottom: 80px;
+    }
+
+
+
+
+
+
+    .zagolovok {
+        font-size: 18px;
+    }
+    .paragraph {
+        font-size: 13px; 
+    }
+    .paragraph {
+        margin-bottom: 44px;
+    }
+    .cards_panel {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 44px;
+    }
+    .cards {
+        margin-bottom: 0;
+    }
+
+
+
+
+    .text_panel.options {
+        padding-top: 44px;
+    }
+    .prising_class {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding-bottom: 26px;
+    }
+    .paragraph {
+        margin-bottom: 0px;
+    }
+
+
+
+    .paragraph {
+        padding-bottom: 25px;
+    }
+    .customers_crd {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .customers_cards.triangle {
+        align-items: center;
+    }
+    .triangle ::after {
+        bottom: 85px;
+    }
+    .customers_card {
+        max-width: 287px;
+    }
+    .customers {
+        margin-bottom: 24px;
+    }
+
+
+
+
+    .zagolovokk {
+        padding-top: 20px;
+    }
+    .text_panel.styl {
+        padding: 20px;
+    }
+    .downloader.dd {
+        max-width: 287px;
+        max-height: 50px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+
+
+    .contact_blok {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 50px
+    }
+    .contact_info {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 760px) {
+    .tabs {
+        margin-bottom: 20px;
+    }
+    .freedom {
+        display: none;
+    }
+    .tabs_panelll {
+        max-width: 310px;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    .tabs_multi {
+       
+    }
+    .tabs_card {
+        max-width: 103px;
+    }
+    .buttons.board {
+        max-width: 103px;
+    }
+    .buttons {
+        max-width: 103px;
+    }
+    .tabs_text {
+        padding: 20px ;
+    }
+    .zagolovok_tabs {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .paragraph_tabs {
+        text-align: center;
+        margin: 0;
+    }
+    .download {
+        display: flex;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .tabs_panel {
+        margin-bottom: 34px;
+    }
+
+
+
+    .footer_img {
+        max-width: 26px;
+        max-height: 26px;
+        padding-right: 17px;
+    }
+    .design {
+        max-width: 100%;
+    }
+    
+
+
+    .card {
+        width: 288px;
+    }
+
+    .media_img {
+        margin-left: 15px;
+    }
+   
+    .prising_table {
+        width: 288px;
+    }
+}

@@ -122,8 +122,8 @@ table {
 	font-size: 48px;
 	font-weight: 500;
 	font-family: 'Raleway', sans-serif;
-	width: 670px;
-	padding-right: 101px;
+	max-width: 670px;
+	padding-right: 40px;
 	color: #FFFFFF;
 	padding-bottom: 55px;
 }
@@ -164,11 +164,12 @@ table {
 .start_form {
 	position: relative;
 	display: block;
-	width: 470px;
-	height: 450px;
+	max-width: 470px;
+	max-height: 450px;
 	background-color: #FFFFFF;
 	margin-top: 257px;
 	border-radius: 10px;
+	overflow: hidden;
 }
 .name_form {
 	color: rgba(51, 51, 51, 1)	;
@@ -188,6 +189,7 @@ table {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 32px;
+	max-width: 100%;
 }
 input {
 	border: none;
@@ -234,15 +236,14 @@ label {
 
 .media_lorem {
 	padding-top: 18px;
-	width: 470px;
 	font-weight: 400;
 	color: #86878B;
 	padding-bottom: 18px;
 }
 
-.media_img {
+.media_imgg {
 	display: flex;
-	padding-top: 17px;
+	padding-top: 25px;
 }
 
 .media_img {
@@ -356,7 +357,7 @@ label {
 }
 .card {
 	
-	width: 30%;
+	max-width: 100%;
 }
 .img{
 	display: block;
@@ -404,7 +405,7 @@ label {
 	color: #FFFFFF;
 	font-family:'Open Sans', sans-serif;
 	border: 2px solid #F5F5F5;
-	background-color: #000000;
+	background-color: rgba(51, 51, 51, 1);
 	width: 100%;
 	text-align: center;
 	height: 60px;
@@ -415,7 +416,7 @@ label {
 	
 .baks {
 	font-size: 36px;
-	background-color: #000000;
+	background-color: rgba(51, 51, 51, 1);
 	display: flex;
 	width: 100%;
 	text-align: center;
@@ -430,7 +431,7 @@ label {
 	font-size: 18px;
 	color: rgba(255,255,255, 0.5);	
 	width: 100%;
-	background-color: #000000;
+	background-color: rgba(51, 51, 51, 1);
 	text-align: center;
 	justify-content: center;
 	align-items: center;
@@ -459,17 +460,21 @@ label {
 .customers {
 	margin-bottom: 150px;
 }
-.customers_cards {
+.customers_crd {
 	display: flex;
 	justify-content: space-between;
+	gap: 30px;
+}
+.customers_cards {
+	display: flex;
+	flex-direction: column;
 }
 
 .customers_card {
 	background-color: #E2E2E2;
 	border-radius: 10px;
-	max-width: calc(100% / 3 - 60px / 3);
+	max-width: 100% ;
 	padding: 38px 25px;
-
 }
 
 .triangle {
@@ -478,12 +483,13 @@ label {
 .triangle ::after {
 	content: ''; 
     position: absolute;
-    left: 70px; bottom: -45px;
+    left: 15%;
+	bottom: 35%;
     border: 20px solid transparent;
     border-top: 30px solid #E2E2E2;
 }
 .customers_text {
-	max-width: 320px;
+	width: 100%;
 	text-align: center;
 }
 .card_managers {
@@ -493,6 +499,7 @@ label {
 }
 .card_manager {
 	display: flex;
+	margin-top: 66px;
 }
 .photo_manager {
 	max-width: 70px;
@@ -559,7 +566,7 @@ label {
 	font-size: 18px;
 	font-weight: 600px;
 	font-family:'Open Sans', sans-serif;
-	width: 270px;
+	width: 370px;
 	height: 58px;
 	background: none;
 	color: #FFFFFF;
@@ -574,7 +581,17 @@ label {
 
 
 /*	section contact	*/
-
+.form-group.addd {
+	padding: 0;
+	max-height: 100%;
+	
+}
+.form-group.ad {
+	padding-left: 0ch;
+	padding-right: 0cap;
+	max-height: 100%;
+	
+}
 .zagolovokkk .cont {
 	color: rgba(0, 0, 0, 1);
 }
@@ -604,15 +621,15 @@ label {
 }
 .contact_blok {
 	display: flex;
-	justify-content: space-between;
-	
+	gap: 30px;
 }
 .contact_info { 
 	width: calc(100% / 2);
-	gap: 30 px;
+	
+	
 }
 textarea {
-	height: 189px;
+	height: 192px;
 	resize: none;
 	border-left: none;
 	border-right: none;
@@ -650,7 +667,7 @@ button {
 .footer_box {
 	display: flex;
 	padding-top: 35px;
-	padding-left: 301px;
+	justify-content: center;
 	padding-bottom: 27.8px;
 }
 .footer_img {
@@ -663,3 +680,5 @@ button {
 	color: rgba(255, 255, 255, 0.5);
 	text-align: center;
 	padding-bottom: 27px;
+	font-size: 18px;
+}
