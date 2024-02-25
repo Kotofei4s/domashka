@@ -238,7 +238,18 @@
     
 }
 @media (max-width: 900px) {
-
+    .menu_img {
+        display: block;
+    }
+    .wrapper.ad {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
+        width: 100%;
+    }
+    .menu_img {
+        padding-top: 9px ;
+    }
     .ul_header {
         display: none;
     }
@@ -357,6 +368,7 @@
     }
 }
 @media (max-width: 760px) {
+    
     .tabs {
         margin-bottom: 20px;
     }
