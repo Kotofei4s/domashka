@@ -163,6 +163,9 @@ table {
 	border: 2px solid #FFFFFF;
 }
 
+.overlay {
+	display: none;
+}
 .start_form {
 	position: relative;
 	display: block;
@@ -186,6 +189,8 @@ table {
 	color: rgba(236, 121, 121, 1);
 }
 .form-group {
+	outline-style:none;
+	border: none;
 	display: flex;
 	flex-direction: column;
 	padding-left: 50px;
@@ -195,6 +200,7 @@ table {
 }
 input {
 	border: none;
+	outline-style:none;
 	border-bottom: 1px solid rgba(189, 189, 189, 1);
 	padding-top: 16px;
 }
@@ -632,6 +638,8 @@ label {
 	
 }
 textarea {
+	outline-style: none;
+	border: none;
 	height: 192px;
 	resize: none;
 	border-left: none;
